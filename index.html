@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="js/nightout.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Karla|Lora" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Steve's Night Out</title>
+  <meta property="og:title" content="Steve's Night Out">
+  <meta property="og:description" content="Find Concerts To Go To">
+  <meta property="og:image" content="http://stevesnightout.surge.sh/audience-1867754_1920.jpg">
+  <meta property="og:url" content="http://stevesnightout.surge.sh">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="page-header">
+    <h1>Steve's Night Out</h1>
+
+    <div id=header-texts>
+      <div id=header-input>
+        <div id="city-input">
+          <h3>City: </h3>
+          <input id="city-data" type="text" placeholder="City Name" class="input-boxes">
+        </div>
+        <div id="date-start">
+          <h3>Start Date: </h3>
+          <input id="start-date-data" type="date" class="input-boxes">
+        </div>
+      </div>
+
+      <div id="button-weather">
+        <div id="button-container">
+          <button id="search-button">Search</button>
+        </div>
+        <div id="weather">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="list-body">
+    <p> </p>
+  </div>
+
+
+  <div id="modal">
+    <p id="exit">Places To Eat ---- click here to close</p>
+    <div id="modal-container">
+      <ul id="modal-list">
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
